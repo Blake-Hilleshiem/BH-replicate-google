@@ -1,0 +1,58 @@
+.header-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  height: 50px;
+  /* border: 1px solid red; */
+  padding: 0 10px;
+}
+
+.header-container a {
+  font-size: small;
+}
+
+.header-item-left:hover {
+  text-decoration: underline;
+}
+
+.header-left-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-item-left {
+  padding: 0 10px;
+}
+
+.header-item-right:hover {
+  text-decoration: underline;
+}
+
+.header-right-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-item-right {
+  padding: 0 10px;
+}
+
+.signin-button button,
+input[type="submit"],
+input[type="reset"] {
+  height: 35px;
+  width: 100px;
+  background-color: #2f73e1;
+  border-radius: 5px;
+  border: none;
+  font-size: small;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.signin-button button a {
+  color: white;
+}
+
+.signin-button button:hover {
+  background-color: #438bec;
+}

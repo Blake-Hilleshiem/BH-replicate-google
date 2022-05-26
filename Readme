@@ -1,0 +1,12 @@
+\* Assignments for 5/20/2022 - Due Monday
+Go through the grid gardens game - https://cssgridgarden.com/
+
+Replicate the google.com landing page.
+
+- Make a replica as close as you possibly can using all of the tools we've gone over so far.
+- Use CSS Grid for the page layout.
+- I want actual links (though they can be dead), and icons that are closely related to what you see on the page, etc....
+
+hint on the input:
+
+- style divs around the sides of the input to match it so you can use the icons a bit easier. \*

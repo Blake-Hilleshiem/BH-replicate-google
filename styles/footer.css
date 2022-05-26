@@ -1,0 +1,34 @@
+.footer-container {
+  height: 45px;
+  display: grid;
+  grid-template-columns: 355px 1fr 125px 230px;
+  background-color: #f7f7f7;
+  padding: 0 15px;
+}
+
+.footer-container a {
+  color: #797b7e;
+  font-size: small;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-left-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-right-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
